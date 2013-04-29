@@ -1,0 +1,20 @@
+<dtml-comment>
+title: Insert contact
+arguments: i_id,i_name,i_address
+connection_id:ICM_Database_Connection
+max_rows_:1000
+max_cache_:100
+cache_time_:0
+class_name_:
+class_file_:
+</dtml-comment>
+
+INSERT INTO MBR <dtml-var "SQLWrapper.getRowLockStatement()">(
+ ADDRESS,
+ PHONE
+ )
+VALUES (
+<dtml-sqlvar i_address type=nb optional>,
+
+)
+<dtml-var sql_delimiter> 

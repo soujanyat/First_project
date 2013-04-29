@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>View member Details</title>
+    <link rel="stylesheet" href="style1.css" type="text/css" /> 
+     </head>
+  <body>
+  <div id="header">
+      <div id="ze-hrmlogo">Ze-HRM</div>
+      <div class="header-title">Welcome to Ze-HRM</div>
+      <div id="login">
+         <a href="zeindex">Home</a>&nbsp;|&nbsp;<a href=".">Contact Us</a>&nbsp;|&nbsp;<a href="employee">Logout</a>
+      </div>
+   </div>
+     
+<table class="bodycontent">
+   <tr>
+      <td class="ze-left-navigation" valign="top" >
+          <table>
+    <tr><th>Basic Details</th></tr>
+      <tr><td><a href="addresses">Addresses</a></td></tr> 
+</table>
+</td>
+<td class="body-content">
+</td>
+</tr>
+</table>
+</body>
+  </body>
+</html>

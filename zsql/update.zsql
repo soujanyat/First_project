@@ -1,0 +1,15 @@
+<dtml-comment>
+title:
+arguments:address
+connection_id:ICM_Database_Connection
+max_rows_:1000
+max_cache_:100
+cache_time_:0
+class_name_:
+class_file_:
+</dtml-comment>
+UPDATE MBR <dtml-var "SQLWrapper.getRowLockStatement()">
+ ADDR_LINE = <dtml-sqlvar i_address type=string>
+ PHONE = <dtml-sqlvar i_phone type=integer>
+WHERE
+ IDN =<dtml-sqlvar i_idn type=int>

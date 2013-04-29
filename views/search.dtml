@@ -1,0 +1,66 @@
+<html>
+  <head>
+   <title>viewcontactpage</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <div id="header">
+    	<table width="100%">
+    		<tr>
+
+		<td class="ze-header-links" align="right"><a href="login_index" >Home</a>&nbsp;|&nbsp;
+											<a href="contact_us">ContactUs</a>&nbsp;|&nbsp;
+											<a href="index_html">logout</a></td>
+		</tr>
+		</table>     
+   </div>
+   <div id="main">
+   		<table width="100%">
+ 	   		<tr>
+	      		<td  align="left" width="15%">   
+           			<div class="left-navigation">
+			            <table id="table" width="100%">
+            				<tr>
+				      			<td><a href="add_contact">&nbsp;&nbsp;Add Contact &nbsp;&nbsp;</a></td>
+				      		</tr>
+				      		<tr>
+				    	       <td><a href="view_contact">&nbsp;&nbsp;All COntacts &nbsp;&nbsp;</a></td>
+				      		</tr>
+	        			</table>
+     				</div>
+         		</td>
+		         <td width="85%">
+        			 <fieldset>
+						<legend>search page</legend>
+					<form action="search_contacts" method="post" name = "form2" onsubmit="return check()">
+					       <table align="center"  cellpadding="8" border=0>
+						       <tr>
+						       <td>id</td>						       
+						       <td><input type="text" name="mbr_id" title="mbr_id"/></td>
+						       </tr>      
+						       <tr>
+						       <td>Name</td>						       					       
+						       <td><input type="text" name="name" title="name"/></td>
+						        </tr>						        	
+							<tr>
+							<td>
+							<button type="submit"  accesskey="a"  name="submit" class="primary">Search</button>
+							<td>
+							</tr>
+						
+					        </table>
+						
+			        </fieldset>
+				</form>
+		       </td>
+      	 </tr>
+       </table>
+      </div>
+      <div id="footer">
+ 			<table align="center">
+ 				<tr>
+					 <td align="center">&copy;2013 ZeOmega </td>
+				 </tr>
+    		</table>
+ 	 </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>ZeSearch</title>
+    <link rel="stylesheet" type="text/css" href="/++resource++style/main.css" />
+  </head>
+  <body style= "background-color:#FFFFFF">
+  <form action="manage_setUpZeSearch" method="post">
+      ID: <input type="text" name="obj_id" /> <br /></br>
+     <input type="submit" value="Add" />
+  </form>
+  </body>
+<html>

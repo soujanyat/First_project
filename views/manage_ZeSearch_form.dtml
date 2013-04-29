@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Add ZeSearch</title>
+     <link rel="stylesheet" type="text/css" href="style/color.css" />
+  </head>
+    <body style= "background-color:#FFFFFF">
+   <form action="main_page" method="POST">
+   <fieldset width="60%" style="background-color:#48D1CC">
+   <legend>Search page</legend>
+   <table width="50%" border="0" cellspacing="10"> 
+    <tr>
+        <td align="right"><br>Name :</td>
+        <td title="please enter your name"><br>
+        <input type="text" name="NAME" size="20"></td>
+ 	</tr>
+ 	<tr>
+        <td align="right"><br>Password :</td>
+        <td title="please enter your id"><br>
+        <input type="text" name="PASSWORD" size="20"></td>
+    </tr>
+      <tr><td colspan="2" align="center">
+      <br><input type="submit" value="SUBMIT"> &nbsp;&nbsp;&nbsp;
+</form>
+</body>
+</html>
+
+
+ <form action="main_page" method="POST">
+   <fieldset width="60%" style="background-color:#48D1CC">
+   <legend>Search page</legend>
+   <table width="50%" border="0" cellspacing="10"> 
+    <tr>
+        <td align="right"><br>Name :</td>
+        <td title="please enter your name"><br>
+        <input type="text" name="NAME" size="20"></td>
+ 	</tr>
+ 	<tr>
+        <td align="right"><br>Password :</td>
+        <td title="please enter your id"><br>
+        <input type="text" name="PASSWORD" size="20"></td>
+    </tr>
+      <tr><td colspan="2" align="center">
+      <br><input type="submit" value="SUBMIT"> &nbsp;&nbsp;&nbsp;
+</form>
+
+   </table>

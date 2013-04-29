@@ -1,0 +1,27 @@
+<dtml-comment>
+title: Get Contact list
+arguments:
+connection_id:ICM_Database_Connection
+max_rows_:1000
+max_cache_:100
+cache_time_:60000
+class_name_:
+class_file_:
+</dtml-comment>
+SELECT
+MBR.ID,
+MBR.NAME
+MBR.ADDRESS
+MBR.PHONE
+FROM
+MBR
+<dtml-if i_ID>
+<dtml-sqlgroup required where>
+    MBR.ID=<dtml-sqltest i_ID column=IDN op=eq type=int optional>
+</dtml-if>
+<dtml-if i_NAME>
+<dtml-and>
+    <dtml-sqltest i_NAME column=NAME op=eq type=nb optional>
+</dtml-if i_NAME>
+
+

@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style1.css" type="text/css" />
+  </head>
+  <body >
+    <div id="header">
+      <table width="100%" height="20%" style="text-align: center">
+        <tr>
+          <td class="ze-hetext">Wel-come to ZeSearch</td>
+          <a href="index_html">logout</a></td>
+        </tr>
+      </table>
+     </div>
+    <div id="main">
+    <table width="100%" height="30%">
+      <div class="left-navigation" valign="top">
+      <table>
+      <tr>
+        <td>
+          <a href="add_member">Add Member</a></td>
+       </tr>
+       <tr>
+       <td><a href="edit_member">Eidt Member Details</a></td>
+       </tr>
+      <tr>
+       <td><a href="search_contact">Search Member</a></td>
+       </tr>
+       <tr>
+		<td><a href="search_view">View Member</a></td>
+		</tr>
+    </table>
+    </div>
+    <div id="footer">
+    <table width="100%">
+    </table>
+    </div>
+  </body>
+</html>

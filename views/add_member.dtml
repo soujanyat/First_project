@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>Add ZeSearch</title>
+<link rel="stylesheet" href="style1.css" type="text/css" />
+<script type="text/javascript">
+   function check()
+         {
+            if (document.form1.mbr_id.value == "")
+            {
+              alert("Please Enter ID ");
+            return false;
+            }
+            if (document.form1.name.value == "")
+            {
+
+              alert("Please Enter Name");
+              return false;   
+            }
+            if (document.form1.address1.value == "")
+            {
+              alert("Please Enter Employee Address")
+              return false;
+            } 
+	}
+	
+	function checkUsername() 
+ 	{
+ 	 var illegalChars = /\W/;
+	var x=myForm.fname.value;                    
+       if(x.length==0)													
+       {
+     		alert("First name must be filled out");
+     
+       }
+     else if (x.length<=4 || x.length>10)
+       {
+       		alert("charater length must be greater than 4,and less than 10"); 
+       }
+     else
+     {
+     	alert("welcome");
+     }     
+   }
+   function check(i)
+	  {
+		 if(i=="")
+			{ 
+			   alert("Enter value");
+			   return flase;
+			}
+		 else if(isNaN(i))							
+			{
+			   alert("please enter only numbers in member id field");
+			   return false;
+			}
+      }
+      var f4 = new LiveValidation('f4');
+      f4.add( Validate.Numericality, { onlyInteger: true } );
+      {
+         alert ("Only alpha characters are valid in this field"); 
+      }
+      var ref
+		 function start()
+			{
+			   ref = open("views/index_html")
+			}
+         function stop()
+			{
+			   ref = open("views/file1.html")
+			}
+   </script>
+</head>
+<body>
+   <form name="form">
+      <div id="header">
+      <table width="100%" height="20%" style="text-align: center">
+        <tr>
+          <td class="ze-hetext">Member Add Page</td>
+          <a href="index_html">logout</a></td>
+        </tr>
+      </table>
+     </div>
+      <div id="main">
+      <table width="100%" height="30%">
+         <div class="left-navigation" valign="top">
+         <table>
+         <tr><td>
+               <a href="add_member">Add Member</a></td>
+          </tr>
+         <tr>
+         <td><a href="edit_member">Eidt Member Details</a></td>
+         </tr>
+         <tr>
+          <td><a href="search_page">Search Member</a></td>
+         </tr>
+         <tr>
+		 <td><a href="search_contact">View Member</a></td>
+		 </tr>
+         </table>
+      <td class="body-content">
+         <center>
+         <form action='insert_member' method="post" name="form1" onsubmit="return check()">
+         <table>
+            <tr>
+            <td> Member ID  </td>
+            <td><input type="text" name="num"  maxlength="10" title="Enter the number"></td>
+            </tr>
+            <tr>
+            <td> Member Name </td>
+            <td><input type="text" name="name" onclick="f4.add"></td>
+            </tr>
+            <tr>
+            <td> Member Address </td>
+            <td><textarea name="member_address" cols="22"></textarea></td>
+            </tr>
+            <tr>
+            <td> Phone </td>
+            <td><input type="text" name="phone" maxlenght="10"></td>
+            </tr>
+            <tr>
+            <td colspan="3" align="center" onclick="check(this.form.num.value)"><button type="submit" name="submit" value="Save" title="Add"/>Add</button>
+                         <button type="reset" value="Cancel"/> Cancel</button></td>
+            </tr>
+         </table>
+         </form>
+         </center>
+         </td></tr>
+         </table>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,15 @@
+<dtml-comment>
+title: Delete the contact
+arguments: id
+connection_id:ICM_Database_Connection
+max_rows_:1000
+max_cache_:100
+cache_time_:0
+class_name_:
+class_file_:
+</dtml-comment>
+
+DELETE MBR
+dtml-sqlgroup required where>
+  <dtml-sqltest idn column=IDN type=int op=eq>
+<dtml-and>

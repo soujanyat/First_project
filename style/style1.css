@@ -1,0 +1,105 @@
+body{
+background-color:#b0c4de;
+}
+
+.header {
+background-color:skyblue;
+border-top:1px solid #8994F4;
+border-bottom:1px solid #8994F4;
+}
+
+.headertable {
+width:100%;
+background-color:#99CCFF;
+spacing:10px;
+padding:10px;
+}
+
+.td1 {
+margin:auto;
+width:20%;
+font-size:20px;
+color:blue;
+}
+
+.td2 {
+margin:auto;
+width:60%;
+font-size:30px;
+text-align:center;
+color:white;
+font-style:bold;
+}
+
+.td3{
+margin:auto;
+width:20%;
+font-size:12px;
+color:blue;
+text-align:right;
+
+}
+.td4{
+
+}
+.ze-table {
+background-color:#E2F0FF;
+margin:auto;
+width:30%;
+spacing:30px;
+text-align:right;
+border:1px solid #8994F4;
+margin-top:3cm;
+}
+
+.ze-table th
+{
+spacing:10px;
+padding:10px;
+text-align:center;
+background-color:#CCE6FF;
+font-size:14;
+font-family:Arial;
+}
+
+.ze-table td
+{
+spacing:6px;
+padding:6px;
+font-size:11pt;
+
+}
+
+.ze-table a
+{
+color:blue;
+font-style:bold;
+font-size:10pt;
+text-decoration:underline;
+}
+
+.ze-table a:hover
+{
+color:gray;
+font-size:10pt;
+text-decoration:none;
+}
+
+.td3 a:hover
+{
+color:white;
+font-size:10pt;
+text-decoration:none;
+}
+
+.bottomdiv
+{
+background:#99CCFF;
+margin:auto;
+width:100%;
+cellspacing:30px;
+text-align:center;
+border:1px solid #8994F4;
+margin-top:6cm;
+}
+

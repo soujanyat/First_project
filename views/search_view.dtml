@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>view serach page</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+    <body>
+        <div id="header">
+        <table width="100%" height="20%" style="text-align: center">
+        <tr>
+          <td class="ze-hetext">ZeSearch</td></tr>
+          <a href="index_html">Back</a>
+        </table>
+        </div>
+        <div id="main">
+        <table width="80%">
+            <tr>
+            <td align="left" width="25%">
+            <div class="left-navigation">
+            <table>
+            <td>
+            <a href="add_member">Add Member</a><br>
+            </td>
+            </table>
+            </div>
+            <div align="center" width="15%">
+            <th>Member ID</th>
+            <th>Member Name</th>
+            <th>Address</th>
+            <dtml-in "search_list">
+            <th><dtml-var id></td>
+            <td><dtml-var name></td>
+            <td><dtml-var address></td>
+            </dtml-in>
+            </div>
+    </body>
+</html>

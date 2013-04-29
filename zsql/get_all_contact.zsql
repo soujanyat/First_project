@@ -1,0 +1,17 @@
+<dtml-comment>
+title: Get Contact list
+arguments: no arguments
+connection_id:ICM_Database_Connection
+max_rows_:1000
+max_cache_:100
+cache_time_:60000
+class_name_:
+class_file_:
+</dtml-comment>
+SELECT
+MBR.ID,
+MBR.NAME
+MBR.ADDRESS,
+MBR.PHONE,
+FROM
+MBR
